@@ -258,3 +258,16 @@ h1.logo {
 main.animate {
   animation: slideInFromLeft 1s ease-out both;
 }
+
+@media (max-width: 768px) {
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav-links li {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
