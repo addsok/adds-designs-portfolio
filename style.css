@@ -10,7 +10,6 @@ body {
   color: #fff;
   background: #111;
   scroll-behavior: smooth;
-  animation: flicker 2.5s linear;
 }
 
 .container {
